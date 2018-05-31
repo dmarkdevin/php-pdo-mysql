@@ -1,0 +1,15 @@
+    
+/index.php
+/create.php
+/read.php
+/update.php
+/delete.php
+
+CREATE TABLE `users` (
+  `id` int(255) NOT NULL AUTO_INCREMENT,
+  `name` varchar(1000) DEFAULT NULL,
+   PRIMARY KEY (id)
+);
+  
+git remote add origin https://github.com/dmarkdevin/php-pdo-mysql.git
+git push -u origin master  
